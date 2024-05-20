@@ -1,0 +1,118 @@
+html {
+  background-image: url('../imgs/background.png');
+  background-repeat: repeat;
+  background-size: 1%;
+}
+
+.navbar {
+    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+}
+
+.navbar-dropdown {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.select select {
+    line-height: normal;
+}
+
+#question-table {
+    width: 100%;
+}
+
+
+.is-size-title {
+    font-size: 5rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.front-title {
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.front-subtitle {
+    margin-bottom: 3rem;
+}
+
+.front-section {
+    margin-bottom: 10rem;
+}
+
+.front-column-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.front-a-button {
+    margin-top: 2rem;
+}
+
+.empty-div {
+    width: 100%;
+    height: 14rem;
+}
+
+.choice-content h1 {
+    margin-bottom: 2.5rem;
+}
+
+.next-button {
+  width: 14rem;
+  height: 4rem;
+  font-size: 2rem;
+  background: rgba(230,238,255,1);
+  opacity: 1;
+  border: 2px solid rgba(0,0,0,1);
+  border-radius: 42px;
+  box-shadow: 0.5rem 0.5rem black;
+  overflow: hidden;
+  margin-top: 3rem;
+}
+
+.hide {
+  display: none;
+}
+
+.top {
+  position: absolute;
+  left: 50%;
+  top: -0.75rem;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.render-markdown, .practice-panel {
+  overflow-y: auto;
+}
+
+.CodeMirror {
+  border: 1px solid #eee;
+  height: auto;
+  width: 100%;
+  min-height: 130vh; /* or whatever height you prefer */
+  overflow-y: auto;
+}
+
+.invisible-text {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.has-background-grey {
+  background-color: #e0e0e0;
+}
+
+.has-background-success {
+  background-color: #4caf50;
+}
+
+.custom-image {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
